@@ -8,7 +8,7 @@ public class SimpleCalculator
 	}
 	
 	/**
-	 * Subtract the second argument from the first.
+	 * Perform subtraction on the two operands.
 	 * 
 	 * @param first the first operand
 	 * @param second the second operand
@@ -18,5 +18,32 @@ public class SimpleCalculator
 	public int subtract(int first, int second)
 	{
 		return first - second;
+	}
+	
+	/**
+	 * Perform multiplication on the two operands.
+	 * 
+	 * @param first the first operand
+	 * @param second the second operand
+	 * 
+	 * @return the product of the two operands
+	 */
+	public int multiply(int first, int second)
+	{
+		return first * second;
+	}
+	
+	/**
+	 * Perform integer division on the two operands.
+	 * (Divide and apply the floor function to the resulting value)
+	 * 
+	 * @param first the first operand
+	 * @param second the second operand
+	 * 
+	 * @return the quotient of the two operands
+	 */
+	public int divide(int first, int second)
+	{
+		return first / second;
 	}
 }
